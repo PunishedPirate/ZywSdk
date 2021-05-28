@@ -1,0 +1,6 @@
+framework module ZywSdk {
+  umbrella header "ZywSdk-umbrella.h"
+
+  export *
+  module * { export * }
+}

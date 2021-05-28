@@ -1,0 +1,16 @@
+PODS:
+  - ZywSdk (0.1.0)
+
+DEPENDENCIES:
+  - ZywSdk (from `../`)
+
+EXTERNAL SOURCES:
+  ZywSdk:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZywSdk: d8c0a5675a0bcafd2026750d5b1050779d1264a0
+
+PODFILE CHECKSUM: 4b6189e38789cace74f348df2979a2591b004d01
+
+COCOAPODS: 1.10.1

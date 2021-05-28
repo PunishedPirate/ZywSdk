@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B8F97A6B4C6737BFEAFE7FE98257B06 /* ZywSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F36007B6A5F7051F7EC707E6470A59 /* ZywSdk-dummy.m */; };
+		1A40C4D7D70AE704E510C8D10B3AF95D /* ZywSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12DA092FC432A56CAA0FDA286536B0A1 /* ZywSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		358452FDC0E4DE4187253047D72C564A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3D7663DCA7D2060C7EDF566B56A85B1C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		521EEB2632119A2C6380FA84AC70F9B2 /* Pods-ZywSdk_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1ABDF4B852686FBAABA9B1336E95635 /* Pods-ZywSdk_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A5B753DBB9C1024FB33EF09A46566CD /* Pods-ZywSdk_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7355B79952EBC1CDE7CE12824EEE58D1 /* Pods-ZywSdk_Example-dummy.m */; };
+		8FF1BEA9AB2E5B3782F45E8F5043ECC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A6E2C9842660DCA300C27BAA /* SdkDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = A6E2C9832660DCA300C27BAA /* SdkDemo.m */; };
+		A6E2C9852660DCD100C27BAA /* SdkDemo.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E2C9822660DC7700C27BAA /* SdkDemo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D99D8BBFBA7671FC1DF6C921C6CFBC4F /* Pods-ZywSdk_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9678D616FE3E7CA10FFAE8B927E3DF45 /* Pods-ZywSdk_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F86C0BFF84B4F12D4ABFECBD562DC532 /* Pods-ZywSdk_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 432E1E073831EEC29170C3F9D55124DB /* Pods-ZywSdk_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B1D88A29ED2EB4B528E897ACC9421CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4B99C79976924AF65CE3D0078E99255;
+			remoteInfo = "Pods-ZywSdk_Example";
+		};
+		9D0C15A214509FC0704EE80C1D0D2BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C901DEE5C171472B2C0CE0593C0338FD;
+			remoteInfo = ZywSdk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0689808068A0BFB438413431DE891F59 /* Pods-ZywSdk_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZywSdk_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0DC599DB440D327944EDBACCBD238D90 /* Pods-ZywSdk_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZywSdk_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		10C9698585CB0D2CC377116EE681B34E /* Pods_ZywSdk_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZywSdk_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1273276167DC16864C251EDD9908DA66 /* ZywSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZywSdk.modulemap; sourceTree = "<group>"; };
+		12DA092FC432A56CAA0FDA286536B0A1 /* ZywSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZywSdk-umbrella.h"; sourceTree = "<group>"; };
+		1395C300126D4E473C0789D5DD3DA28F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2F0AE2EBFF5336A6CEE16A47BD37FB81 /* Pods-ZywSdk_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZywSdk_Tests.modulemap"; sourceTree = "<group>"; };
+		2F182630B49DC2CF5FE9C82B8908C9DD /* Pods-ZywSdk_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZywSdk_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		356019B87B60E6D1A35273566F7D362A /* Pods-ZywSdk_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZywSdk_Tests-Info.plist"; sourceTree = "<group>"; };
+		3A5FAE56A56CF307A4BFD46907CC0DAE /* ZywSdk-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZywSdk-prefix.pch"; sourceTree = "<group>"; };
+		40D51FE5A5B9F93FD8815EB564CCB0A1 /* Pods-ZywSdk_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZywSdk_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		432E1E073831EEC29170C3F9D55124DB /* Pods-ZywSdk_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZywSdk_Tests-dummy.m"; sourceTree = "<group>"; };
+		59A551D71DE81A0E773B6133B9F224D0 /* Pods-ZywSdk_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZywSdk_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BB34D47F974D8D36D2EF79D6186FAF5 /* Pods-ZywSdk_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ZywSdk_Example.modulemap"; sourceTree = "<group>"; };
+		5C5FF31B50B3DFCD392B4DBFD4FA7F9F /* Pods-ZywSdk_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZywSdk_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5D96510C31817EE1BA582BDD2CE123F7 /* Pods-ZywSdk_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZywSdk_Example-frameworks.sh"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7355B79952EBC1CDE7CE12824EEE58D1 /* Pods-ZywSdk_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZywSdk_Example-dummy.m"; sourceTree = "<group>"; };
+		8559323431E9A4BE3E649E5C15068D5C /* ZywSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZywSdk.release.xcconfig; sourceTree = "<group>"; };
+		9678D616FE3E7CA10FFAE8B927E3DF45 /* Pods-ZywSdk_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZywSdk_Tests-umbrella.h"; sourceTree = "<group>"; };
+		97F36007B6A5F7051F7EC707E6470A59 /* ZywSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZywSdk-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1ABDF4B852686FBAABA9B1336E95635 /* Pods-ZywSdk_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZywSdk_Example-umbrella.h"; sourceTree = "<group>"; };
+		A6E2C9822660DC7700C27BAA /* SdkDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SdkDemo.h; path = ZywSdk/Classes/SdkDemo.h; sourceTree = "<group>"; };
+		A6E2C9832660DCA300C27BAA /* SdkDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SdkDemo.m; path = ZywSdk/Classes/SdkDemo.m; sourceTree = "<group>"; };
+		B7307BA8B2030C162CF67A44CC27F6CC /* ZywSdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZywSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE73D5F1A80AA1DC4B31B9CAA7A7FA4F /* Pods-ZywSdk_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZywSdk_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BF52588296AA81D23C5E86EEE849B8A6 /* Pods_ZywSdk_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZywSdk_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE7E0FDDECA7194D10E83F6E5A83383 /* ZywSdk.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ZywSdk.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CF76BC5FDF5F272907A136607D51EAD7 /* Pods-ZywSdk_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZywSdk_Example-Info.plist"; sourceTree = "<group>"; };
+		D731015A353AB5D568EFC8B979A74775 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F01C8480D8600FB66F67D1157D3BF445 /* ZywSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZywSdk-Info.plist"; sourceTree = "<group>"; };
+		F47F377B14C7D8A1DACFAE12F2CB797F /* Pods-ZywSdk_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZywSdk_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDF3BEE53417CD4DC85964FE60378915 /* ZywSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZywSdk.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FE5ABC0A5F80A7F45943E5FC09B2DF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D7663DCA7D2060C7EDF566B56A85B1C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		862F0633E8E267A570C0A269E6037D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358452FDC0E4DE4187253047D72C564A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFEE9057FBAA2DBEF380B308EEDDD7A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF1BEA9AB2E5B3782F45E8F5043ECC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		296117F8BB2154C6ACCC3233EFA2885E /* Pods-ZywSdk_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2F0AE2EBFF5336A6CEE16A47BD37FB81 /* Pods-ZywSdk_Tests.modulemap */,
+				40D51FE5A5B9F93FD8815EB564CCB0A1 /* Pods-ZywSdk_Tests-acknowledgements.markdown */,
+				5C5FF31B50B3DFCD392B4DBFD4FA7F9F /* Pods-ZywSdk_Tests-acknowledgements.plist */,
+				432E1E073831EEC29170C3F9D55124DB /* Pods-ZywSdk_Tests-dummy.m */,
+				356019B87B60E6D1A35273566F7D362A /* Pods-ZywSdk_Tests-Info.plist */,
+				9678D616FE3E7CA10FFAE8B927E3DF45 /* Pods-ZywSdk_Tests-umbrella.h */,
+				59A551D71DE81A0E773B6133B9F224D0 /* Pods-ZywSdk_Tests.debug.xcconfig */,
+				BE73D5F1A80AA1DC4B31B9CAA7A7FA4F /* Pods-ZywSdk_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZywSdk_Tests";
+			path = "Target Support Files/Pods-ZywSdk_Tests";
+			sourceTree = "<group>";
+		};
+		4BC0ADF2F59EB8D75F7A3ADB8EC8D188 /* Pods-ZywSdk_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5BB34D47F974D8D36D2EF79D6186FAF5 /* Pods-ZywSdk_Example.modulemap */,
+				2F182630B49DC2CF5FE9C82B8908C9DD /* Pods-ZywSdk_Example-acknowledgements.markdown */,
+				F47F377B14C7D8A1DACFAE12F2CB797F /* Pods-ZywSdk_Example-acknowledgements.plist */,
+				7355B79952EBC1CDE7CE12824EEE58D1 /* Pods-ZywSdk_Example-dummy.m */,
+				5D96510C31817EE1BA582BDD2CE123F7 /* Pods-ZywSdk_Example-frameworks.sh */,
+				CF76BC5FDF5F272907A136607D51EAD7 /* Pods-ZywSdk_Example-Info.plist */,
+				A1ABDF4B852686FBAABA9B1336E95635 /* Pods-ZywSdk_Example-umbrella.h */,
+				0DC599DB440D327944EDBACCBD238D90 /* Pods-ZywSdk_Example.debug.xcconfig */,
+				0689808068A0BFB438413431DE891F59 /* Pods-ZywSdk_Example.release.xcconfig */,
+			);
+			name = "Pods-ZywSdk_Example";
+			path = "Target Support Files/Pods-ZywSdk_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		68B0DC5F81D0117880963D4C7608EFF5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BC0ADF2F59EB8D75F7A3ADB8EC8D188 /* Pods-ZywSdk_Example */,
+				296117F8BB2154C6ACCC3233EFA2885E /* Pods-ZywSdk_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		758D3EBA1814C160F559E573DF81CABA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1273276167DC16864C251EDD9908DA66 /* ZywSdk.modulemap */,
+				97F36007B6A5F7051F7EC707E6470A59 /* ZywSdk-dummy.m */,
+				F01C8480D8600FB66F67D1157D3BF445 /* ZywSdk-Info.plist */,
+				3A5FAE56A56CF307A4BFD46907CC0DAE /* ZywSdk-prefix.pch */,
+				12DA092FC432A56CAA0FDA286536B0A1 /* ZywSdk-umbrella.h */,
+				FDF3BEE53417CD4DC85964FE60378915 /* ZywSdk.debug.xcconfig */,
+				8559323431E9A4BE3E649E5C15068D5C /* ZywSdk.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZywSdk";
+			sourceTree = "<group>";
+		};
+		78369319B7FBD8D48E50E1BE0A2C0888 /* ZywSdk */ = {
+			isa = PBXGroup;
+			children = (
+				A6E2C9822660DC7700C27BAA /* SdkDemo.h */,
+				A6E2C9832660DCA300C27BAA /* SdkDemo.m */,
+				A94C7F092ABCCCD88B65F4E44AA4988A /* Pod */,
+				758D3EBA1814C160F559E573DF81CABA /* Support Files */,
+			);
+			name = ZywSdk;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A94C7F092ABCCCD88B65F4E44AA4988A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1395C300126D4E473C0789D5DD3DA28F /* LICENSE */,
+				D731015A353AB5D568EFC8B979A74775 /* README.md */,
+				CEE7E0FDDECA7194D10E83F6E5A83383 /* ZywSdk.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AE7B66DE85504F14B784CC56178F067A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10C9698585CB0D2CC377116EE681B34E /* Pods_ZywSdk_Example.framework */,
+				BF52588296AA81D23C5E86EEE849B8A6 /* Pods_ZywSdk_Tests.framework */,
+				B7307BA8B2030C162CF67A44CC27F6CC /* ZywSdk.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D49E162C1F06381C264CDAD55EDAC220 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				AE7B66DE85504F14B784CC56178F067A /* Products */,
+				68B0DC5F81D0117880963D4C7608EFF5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D49E162C1F06381C264CDAD55EDAC220 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78369319B7FBD8D48E50E1BE0A2C0888 /* ZywSdk */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3846D9F915922141094B77F468E26B8C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99D8BBFBA7671FC1DF6C921C6CFBC4F /* Pods-ZywSdk_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF2B600C6B010D9C2E08A16213B07ECA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A40C4D7D70AE704E510C8D10B3AF95D /* ZywSdk-umbrella.h in Headers */,
+				A6E2C9852660DCD100C27BAA /* SdkDemo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D84D6A501FC57A73E93123E48A20D132 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				521EEB2632119A2C6380FA84AC70F9B2 /* Pods-ZywSdk_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A87BBA8502951723EBC0A0EFD6C55C30 /* Pods-ZywSdk_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A6C141F3BF5D4685B8AC10DDC4C1281 /* Build configuration list for PBXNativeTarget "Pods-ZywSdk_Tests" */;
+			buildPhases = (
+				3846D9F915922141094B77F468E26B8C /* Headers */,
+				AA7C459A3660D2E152C0C912E31CEF5E /* Sources */,
+				862F0633E8E267A570C0A269E6037D64 /* Frameworks */,
+				BFD3FA01C06ED74AC61884FFFD3628E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC3B96F6599F77413E143BE2A38AA32B /* PBXTargetDependency */,
+			);
+			name = "Pods-ZywSdk_Tests";
+			productName = "Pods-ZywSdk_Tests";
+			productReference = BF52588296AA81D23C5E86EEE849B8A6 /* Pods_ZywSdk_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C901DEE5C171472B2C0CE0593C0338FD /* ZywSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83CA8FEE89C4C890F94F89B3D3667068 /* Build configuration list for PBXNativeTarget "ZywSdk" */;
+			buildPhases = (
+				AF2B600C6B010D9C2E08A16213B07ECA /* Headers */,
+				A7ED9E62EF0D9AD397CD00F7E544D4D8 /* Sources */,
+				7FE5ABC0A5F80A7F45943E5FC09B2DF7 /* Frameworks */,
+				AE0680F75CED3AE803121120109BDAF6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZywSdk;
+			productName = ZywSdk;
+			productReference = B7307BA8B2030C162CF67A44CC27F6CC /* ZywSdk.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F4B99C79976924AF65CE3D0078E99255 /* Pods-ZywSdk_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E939A934D7DE10E68A0A521EBCFEFF52 /* Build configuration list for PBXNativeTarget "Pods-ZywSdk_Example" */;
+			buildPhases = (
+				D84D6A501FC57A73E93123E48A20D132 /* Headers */,
+				9DE3F144532EC047091A8D791B8C365D /* Sources */,
+				AFEE9057FBAA2DBEF380B308EEDDD7A6 /* Frameworks */,
+				C5694DC904AECF97D60333E15FB997B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF803462D554652E4A61CDD325A093FD /* PBXTargetDependency */,
+			);
+			name = "Pods-ZywSdk_Example";
+			productName = "Pods-ZywSdk_Example";
+			productReference = 10C9698585CB0D2CC377116EE681B34E /* Pods_ZywSdk_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AE7B66DE85504F14B784CC56178F067A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4B99C79976924AF65CE3D0078E99255 /* Pods-ZywSdk_Example */,
+				A87BBA8502951723EBC0A0EFD6C55C30 /* Pods-ZywSdk_Tests */,
+				C901DEE5C171472B2C0CE0593C0338FD /* ZywSdk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE0680F75CED3AE803121120109BDAF6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD3FA01C06ED74AC61884FFFD3628E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5694DC904AECF97D60333E15FB997B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DE3F144532EC047091A8D791B8C365D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5B753DBB9C1024FB33EF09A46566CD /* Pods-ZywSdk_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7ED9E62EF0D9AD397CD00F7E544D4D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8F97A6B4C6737BFEAFE7FE98257B06 /* ZywSdk-dummy.m in Sources */,
+				A6E2C9842660DCA300C27BAA /* SdkDemo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA7C459A3660D2E152C0C912E31CEF5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F86C0BFF84B4F12D4ABFECBD562DC532 /* Pods-ZywSdk_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AF803462D554652E4A61CDD325A093FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZywSdk;
+			target = C901DEE5C171472B2C0CE0593C0338FD /* ZywSdk */;
+			targetProxy = 9D0C15A214509FC0704EE80C1D0D2BF8 /* PBXContainerItemProxy */;
+		};
+		CC3B96F6599F77413E143BE2A38AA32B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZywSdk_Example";
+			target = F4B99C79976924AF65CE3D0078E99255 /* Pods-ZywSdk_Example */;
+			targetProxy = 7B1D88A29ED2EB4B528E897ACC9421CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		049F6733499E83FB6220054705D2C7BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8559323431E9A4BE3E649E5C15068D5C /* ZywSdk.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZywSdk/ZywSdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZywSdk/ZywSdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZywSdk/ZywSdk.modulemap";
+				PRODUCT_MODULE_NAME = ZywSdk;
+				PRODUCT_NAME = ZywSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5749B9B9C7F6DEC948D6C01F5AB1BF48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DC599DB440D327944EDBACCBD238D90 /* Pods-ZywSdk_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZywSdk_Example/Pods-ZywSdk_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZywSdk_Example/Pods-ZywSdk_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6AD0F2C5377D956E75F5131FC25F903D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE73D5F1A80AA1DC4B31B9CAA7A7FA4F /* Pods-ZywSdk_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZywSdk_Tests/Pods-ZywSdk_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZywSdk_Tests/Pods-ZywSdk_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		749B0A1D75B71D95C10534CFB7F38848 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0689808068A0BFB438413431DE891F59 /* Pods-ZywSdk_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZywSdk_Example/Pods-ZywSdk_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZywSdk_Example/Pods-ZywSdk_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		924FC713082082B343C32AF10D72F9A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A551D71DE81A0E773B6133B9F224D0 /* Pods-ZywSdk_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ZywSdk_Tests/Pods-ZywSdk_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZywSdk_Tests/Pods-ZywSdk_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F4F5EF417CB679546FD2D5D1981AD047 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF3BEE53417CD4DC85964FE60378915 /* ZywSdk.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZywSdk/ZywSdk-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZywSdk/ZywSdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZywSdk/ZywSdk.modulemap";
+				PRODUCT_MODULE_NAME = ZywSdk;
+				PRODUCT_NAME = ZywSdk;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A6C141F3BF5D4685B8AC10DDC4C1281 /* Build configuration list for PBXNativeTarget "Pods-ZywSdk_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924FC713082082B343C32AF10D72F9A4 /* Debug */,
+				6AD0F2C5377D956E75F5131FC25F903D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CA8FEE89C4C890F94F89B3D3667068 /* Build configuration list for PBXNativeTarget "ZywSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4F5EF417CB679546FD2D5D1981AD047 /* Debug */,
+				049F6733499E83FB6220054705D2C7BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E939A934D7DE10E68A0A521EBCFEFF52 /* Build configuration list for PBXNativeTarget "Pods-ZywSdk_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5749B9B9C7F6DEC948D6C01F5AB1BF48 /* Debug */,
+				749B0A1D75B71D95C10534CFB7F38848 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

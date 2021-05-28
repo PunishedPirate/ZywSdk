@@ -7,6 +7,7 @@
 //
 
 #import "AIViewController.h"
+#import <ZywSdk/SdkDemo.h>
 
 @interface AIViewController ()
 
@@ -24,6 +25,11 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction) onOperation:(id)sender {
+    NSLog(@"onClick");
+    [SdkDemo hello:@"ywzhang"];
 }
 
 @end
